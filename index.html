@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <title> 科普知识有奖竞答 </title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/common.css">
+
+
+
+</head>
+<body>
+<div class="swiper-container">
+  <div class="swiper-wrapper swiper-no-swiping">
+    <!--  第一页  -->
+    <div class="swiper-slide one">
+      <div class="bg_img ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"><img src="img/bg_01.png" /></div>
+      <div class="fix btn_00 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="1s"><img src="img/btn_01.png" /></div>
+    </div>
+    <!--  活动须知页  -->
+    <div class="swiper-slide two">
+      <div class="bg_img"><img src="img/bg_02.png" /></div>
+      <div class="fix btn_01"><img src="img/btn_021.png" /></div>
+    </div>
+    <!--  题目显示页  -->
+    <div class="swiper-slide three">
+
+
+    </div>
+    <!--  未答对所有题目显示页  -->
+    <div class="swiper-slide eight ans_err">
+      <div class="bg_img"><img src="img/bg_05.png" /></div>
+      <div class="fix btn_03"><img src="img/btn_051.png" /></div>
+    </div>
+    <!--  答对所有题目信息填写页  -->
+    <div class="swiper-slide nine correct">
+      <div class="bg_img"><img src="img/bg_04.png" /></div>
+      <div class="abs name">姓 名</div>
+      <div class="abs inp1"><input type="text" class="inp" name="name" autocomplete="off" autofocus="autofocus" onfocus="stopKeyborad($(this))"/></div>
+      <div class="abs phone">电 话</div>
+      <div class="abs inp2"><input type="text" class="inp" name="phone" autocomplete="off" autofocus="autofocus" onfocus="stopKeyborad($(this))" /></div>
+      <div class="fix btn_04"><img src="img/btn_041.png" /></div>
+    </div>
+    <!--  抽奖未获奖页  -->
+    <div class="swiper-slide ten fail">
+      <div class="bg_img"><img src="img/bg_07.png" /></div>
+      <div class="fix btn_03"><img src="img/btn_051.png" /></div>
+    </div>
+    <!--  获奖信息页  -->
+    <div class="swiper-slide eleven winPrize">
+      <div>
+        <div class="bg_img"><img src="img/bg_06.png" /></div>
+        <div class="abs number">卡号：JDV22375359218907445</div>
+        <div class="abs secret">卡密：6BIW-MKOL-R7IU-DS9N</div>
+      </div>
+
+      <div class="fix btn_05"><img src="img/btn_061.png" /></div>
+    </div>
+  </div>
+</div>
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
